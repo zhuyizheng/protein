@@ -76,7 +76,7 @@ cd
 python read_confidences.py
 ```
 
-5. The output in the terminal is in json format. It consists of chains whose ipTM score is >= 0.8, either (C, L) or (C, H). The ones already run are [5grd](./selected_chains/5grd.json) and [6nca](./selected_chains/6nca_20240224.json). For example, for the first entry in [5grd](./selected_chains/5grd.json):
+5. The output in the terminal is in json format. It consists of chains whose ipTM score is >= 0.8, either (C, L) or (C, H). The ones already run are [5grd](./selected_chains/5grd.json) and [6nca](./selected_chains/6nca.json). For example, for the first entry in [5grd](./selected_chains/5grd.json):
 - The (C,H) ipTM score is 0.78
 - The (C,L) ipTM score is 0.68
 - the results are in `~/af_output/20241106_merged3_seq_af_input__2__d_ab_0067_20250205_165643`. In that folder, look for the `.cif` file. That file is the 3D shape of the protein complex. Download the file.
