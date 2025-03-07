@@ -65,7 +65,7 @@ Steps:
 
 2. Copy the output folder by step 1 to `~/af_input`
 
-3. Run alphafold.
+3. Run alphafold. (Need contents of `/data4/yizheng/alphafold/` and `/data4/yizheng/public_databases/`)
 ```
 docker run -it     --volume $HOME/af_input:/root/af_input     --volume $HOME/af_output:/root/af_output     --volume /data4/yizheng/alphafold:/root/models     --volume /data4/yizheng/public_databases:/root/public_databases     --runtime=nvidia -e NVIDIA_VISIBLE_DEVICES=3,4,5,6     alphafold3     python run_alphafold.py     --input_dir=/root/af_input     --model_dir=/root/models     --output_dir=/root/af_output
 ```
