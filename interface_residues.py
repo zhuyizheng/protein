@@ -90,7 +90,7 @@ if __name__ == "__main__":
     # chain2_name = 'H'
     # chain3_id = "E"
     # chain3_name = 'L'
-    chain1_id = "A"
+    chain1_id = "C"
     chain2_id = "H"
     chain2_name = 'H'
     chain3_id = "L"

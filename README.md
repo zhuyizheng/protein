@@ -48,7 +48,7 @@ The generated pdb files are in `./results/5grd`.
 
 ## Filter the candidates by choosing only the ones whose H or L is close to C
 
-Run [interface_residues.py](./interface_residues.py). On the screen prints the paths to pdbs whose H or L is close to C
+Copy [interface_residues.py](./interface_residues.py) to the DiffAb directory. Working in the DiffAb directory, run [interface_residues.py](./interface_residues.py). On the screen prints the paths to pdbs whose H or L is close to C
 
 ## Convert the candidates from pdb to fasta
 
